@@ -28,11 +28,8 @@ main {
 }
 
 .img-container {
-    width: 50%;
+    width: 20%;
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .dog-image {
