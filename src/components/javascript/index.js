@@ -16,8 +16,8 @@ const generateDogImage = function() {
         })
     } else {
         let width = Math.floor(Math.random() * (500 - 100 + 1)) + 100;
-        let height = Math.floor(Math.random() * (300 - 100)) + 100;
-        dogImage.src = `https://placebear.com/${width}/${height}`;
+        let height = Math.floor(Math.random() * (500 - 100)) + 100;
+        dogImage.src = `https://placebear.com/${width}/${width}`;
         audio.play();
         button.classList.add('hidden');
         setTimeout(() => {
