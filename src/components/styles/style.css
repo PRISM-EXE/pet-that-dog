@@ -34,7 +34,7 @@ main {
 
 @media only screen and (max-width: 600px) {
     .img-container {
-        width: 50%;
+        width: 80%;
         height: auto;
     }
 }
